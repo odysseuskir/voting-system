@@ -1,4 +1,4 @@
-# Voting_System
+# Voting System
 These are the files for the Voting System Python project.
 
 # All previous versions
