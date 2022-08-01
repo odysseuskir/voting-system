@@ -1,8 +1,9 @@
 '''
 Author: Odysseus-Abraham Kirikopoulos
-(CC) Attribution-NonCommercial 4.0 International - SOME RIGHTS RESERVED - ODYSSEUS ABRAHAM KIRIKOPOULOS - 2022
-Version: 2.8 Stable
-WARRNING: The following programm was created for educational purpuses
+License: GNU General Public License v3.0
+Version: 2.8.1 Stable
+WARNING: The following programm was created for educational purpuses
+FINAL OFFICIAL VERSION: Next versions, if any, will be community run.
 '''
 
 #Variables
@@ -18,8 +19,8 @@ correct_votes = False
 #Startup
 print("Lanching...\n")
 print("Author: Odysseus-Abraham Kirikopoulos")
-print("(CC) Attribution-NonCommercial 4.0 International - SOME RIGHTS RESERVED - ODYSSEUS ABRAHAM KIRIKOPOULOS - 2022")
-print("Build Version: 2.8 Stable\n")
+print("License: GNU General Public License v3.0")
+print("Build Version: 2.8.1 Stable\n")
 
 #Greet & List
 print("Welcome to the Voting System.\n")
