@@ -58,13 +58,10 @@ if(ttl_votes > 1):
 print(f"\nParty A has: {parties[0]} votes and {party_a_percentage}%\n")
 print(f"Party B has: {parties[1]} votes and {party_b_percentage}%\n")
 print(f"Party C has: {parties[2]} votes and {party_c_percentage}%\n")
-if(parties[0] > parties[1] and parties[2]):
-    print("\nParty A has the most votes")
-elif(parties[1] > parties[0] and parties[2]):
-    print("\nParty B has the most votes")
-elif(parties[2] > parties[1] and parties[0]):
-    print("\nParty C has the most votes")
-elif(parties[0] == parties[1] == parties[2]):
+if(parties[0] == parties[1] and parties[1] == parties[2]):
     print("\nAll parties have equal votes")
+else:
+    most_votes_index = parties.index(max(parties))
+    print(f"\nParty {'ABC'[most_votes_index]} has the most votes")
 
 input('\n\nPress any key to exit\n')
