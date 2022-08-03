@@ -6,22 +6,24 @@ WARNING: The following programm was created for educational purpuses
 FINAL OFFICIAL VERSION: Next versions, if any, will be community run.
 '''
 
+startup = """
+  Lanching...
+  Author: Odysseus-Abraham Kirikopoulos
+  License: GNU General Public License v3.0
+  Build Version: 2.8.1 Stable
+
+  Welcome to the Voting System.
+"""
 #Variables
 parties = [0, 0, 0];
 ttl_votes = 0
 option = 'null'
 authentic_copy = False
-correct_votes = False
 
 #Startup
-print("Lanching...\n")
-print("Author: Odysseus-Abraham Kirikopoulos")
-print("License: GNU General Public License v3.0")
-print("Build Version: 2.8.1 Stable\n")
+print(startup)
 
-#Greet & List
-print("Welcome to the Voting System.\n")
-while(authentic_copy == False):
+while(!authentic_copy):
     authetication = input("\nPlease enter the election center authetication code: ")
     if(authetication == 'demo'):
         print('\nYou have successfuly signed in.')
