@@ -1,16 +1,15 @@
 '''
 Author: Odysseus-Abraham Kirikopoulos
 License: GNU General Public License v3.0
-Version: 2.8.1 Stable
+Version: 2.8.2 Stable
 WARNING: The following programm was created for educational purpuses
-FINAL OFFICIAL VERSION: Next versions, if any, will be community run.
 '''
 
 startup = """
   Lanching...
   Author: Odysseus-Abraham Kirikopoulos
   License: GNU General Public License v3.0
-  Build Version: 2.8.1 Stable
+  Build Version: 2.8.2 Stable
 
   Welcome to the Voting System.
 """
