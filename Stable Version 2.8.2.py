@@ -22,7 +22,7 @@ authentic_copy = False
 #Startup
 print(startup)
 
-while(!authentic_copy):
+while(authentic_copy == False):
     authetication = input("\nPlease enter the election center authetication code: ")
     if(authetication == 'demo'):
         print('\nYou have successfuly signed in.')
