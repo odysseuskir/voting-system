@@ -1,5 +1,5 @@
 # IMPORTANT End of new updates
-The Voting System will no longer get new updates, since the program has no bugs and there is no room for improvment from my part. If you want to optimize it feel free to do it and create a pull request. I will take it into consideration.
+The Voting System will no longer get new updates, since the program has no bugs and there is no room for improvment from my part.
 
 # Voting System
 These are the files for the Voting System Python project.
